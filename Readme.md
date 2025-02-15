@@ -17,15 +17,15 @@ Welcome to the backend repository of the **Video Streaming Application**! This r
 
 ## 📖 Table of Contents
 
-- [Project Overview](#project-overview)
-- [Features](#features)
-- [Tech Stack](#tech-stack)
-- [Architecture Overview](#architecture-overview)
-- [Environment Setup](#environment-setup)
-- [Security and Authentication](#security-and-authentication)
-- [Database Setup](#database-setup)
-- [Performance Testing](#performance-testing)
-- [Conclusion](#conclusion)
+- [Project Overview](#-project-overview)
+- [Features](#-features)
+- [Tech Stack](#-tech-stack)
+- [Architecture Overview](#-architecture-overview)
+- [Environment Setup](#-environment-setup)
+- [Security and Authentication](#-security-and-authentication)
+- [Database Setup](#-database-setup)
+- [Performance Testing](#-performance-testing)
+- [Conclusion](#-conclusion)
 
 ---
 
