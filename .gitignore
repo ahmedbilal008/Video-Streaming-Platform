@@ -5,3 +5,4 @@ docker-compose.override.yml
 *.log
 __pycache__/
 next-frontend/
+**/node_modules/
