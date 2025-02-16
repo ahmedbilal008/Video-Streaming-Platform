@@ -17,8 +17,8 @@ router.get('/usage', async (req, res) => {
         // Validate the user token
         const user = validateToken(req);
         //console.log('User:', user);
-        userId = user.id; // Assign userId after token validation
-
+        userId = user.id; 
+        
         // Query the total size of undeleted videos for the user
         const { data, error } = await supabase
             .from('videos')

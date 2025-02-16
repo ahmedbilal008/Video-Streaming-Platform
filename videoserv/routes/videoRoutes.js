@@ -146,7 +146,6 @@ router.post('/upload', upload.single('video'), async (req, res) => {
             }
         );
 
-        // Pipe the file to Cloudinary
         const bufferStream = require('stream').PassThrough();
         bufferStream.end(req.file.buffer);
         bufferStream.pipe(result);
@@ -181,6 +180,7 @@ router.get('/stream', async (req, res) => {
             .from('videos')
             .select('*', { count: 'exact' })
             .is('deleted_at', null) // Exclude deleted videos
+            .order('uploaded_at', { ascending: false })
             .range(Number(start), Number(start) + limit - 1);
 
         if (error) {

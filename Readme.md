@@ -1,6 +1,4 @@
-### Backend README
-
-# Video Streaming Application - Backend Microservices 🚀
+# Video Streaming Application - Backend Microservices 
 
 Welcome to the backend repository of the **Video Streaming Application**! This repository houses all the microservices that power the application. Built with **Node.js** and **Express.js**, each service is containerized using Docker and deployed on **Google Cloud Run** for automatic scaling and efficient resource management.
 
@@ -145,20 +143,21 @@ The application was stress-tested using **Apache JMeter** with the following par
 - **Key Metrics:** Response time under load, API throughput, error rates, and system stability.
 
 ### 📉 Performance Graphs
-### Logging Service Performance
-![Logging Service](public/images/loggingtest.jpg)
+### Logging Service Performance  
+<img src="public/images/loggingtest.jpg" alt="Logging Service" width="450">  
 
-### User Service Performance
-![User Service](public/images/usertest.jpg)
+### User Service Performance  
+<img src="public/images/usertest.jpg" alt="User Service" width="450">  
 
-### Video Service Performance
-![Video Service](public/images/videotest.jpg)
+### Video Service Performance  
+<img src="public/images/videotest.jpg" alt="Video Service" width="450">  
 
-### Storage Service Performance
-![Storage Service](public/images/storagetest.jpg)
+### Storage Service Performance  
+<img src="public/images/storagetest.jpg" alt="Storage Service" width="450">  
 
-### Usage Service Performance
-![Usage Service](public/images/usagetest.jpg)
+### Usage Service Performance  
+<img src="public/images/usagetest.jpg" alt="Usage Service" width="450">  
+
 
 ---
 

@@ -10,7 +10,7 @@ require('dotenv').config();
 const router = express.Router();
 const supabase = createClient(process.env.SUPABASE_URL, process.env.SUPABASE_KEY);
 
-const JWT_SECRET = process.env.JWT_SECRET; // Store securely in environment variables
+const JWT_SECRET = process.env.JWT_SECRET; 
 
 // Register a new user
 router.post('/register', async (req, res) => {

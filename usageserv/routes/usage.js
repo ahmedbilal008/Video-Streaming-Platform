@@ -16,8 +16,8 @@ router.get('/daily-usage', async (req, res) => {
         // Validate the user token
         const user = validateToken(req);
         //console.log('User:', user);
-        userId = user.id; // Assign userId after token validation
-
+        userId = user.id; 
+        
         // Get today's date
         const today = new Date().toISOString().split('T')[0];
 
